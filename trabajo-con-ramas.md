@@ -1,0 +1,4 @@
+## 1. Introducción y Antecedentes
+El control de versiones es un pilar fundamental en la ingeniería de software moderna. Entre las diversas herramientas disponibles, **Git** —creado por Linus Torvalds en 2005— se ha consolidado como el estándar de la industria. A diferencia de los sistemas centralizados tradicionales, Git es un sistema distribuido donde cada desarrollador posee una copia completa del historial del repositorio. 
+
+Dentro de su arquitectura, una de las características más potentes y transformadoras es el concepto de **ramas (branches)**. Las ramas permiten aislar líneas de desarrollo, facilitando la experimentación, el desarrollo de características paralelas y la colaboración segura sin comprometer la estabilidad del código base principal.
