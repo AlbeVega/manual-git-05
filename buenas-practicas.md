@@ -1,9 +1,18 @@
 
 
-1. Usar un repositorio bien organizado
+#  Buenas Prácticas para Trabajar en GitHub
 
-El repositorio debería tener una estructura clara. Por ejemplo:
+Aquí tienes toda la información organizada para que tus proyectos en equipo sean un éxito.
 
+---
+
+### 1.  Usar un repositorio bien organizado
+
+El repositorio debe tener una estructura clara. Cada carpeta tiene que cumplir un propósito específico.
+
+**Ejemplo de estructura ideal:**
+
+```text
 mi-proyecto/
 ├── README.md
 ├── src/
@@ -11,63 +20,55 @@ mi-proyecto/
 ├── docs/
 ├── .gitignore
 └── LICENSE
+```
 
-No es necesario usar exactamente esta estructura, pero cada carpeta debería tener un propósito claro.
+---
 
-2. Crear un buen README
+###  2. Crear un buen README
 
-El README.md es como la presentación del proyecto. Debería explicar:
+El archivo `README.md` es la carta de presentación de tu proyecto. 
 
-Qué hace el proyecto.
-Cómo instalarlo.
-Cómo ejecutarlo.
-Qué tecnologías utiliza.
-Cómo contribuir.
-Ejemplos de uso, si corresponde.
+**Un buen README debe explicar:**
+* **Qué hace** el proyecto.
+* **Cómo instalarlo** paso a paso.
+* **Cómo ejecutarlo** en la computadora.
+* **Qué tecnologías** utiliza.
+* **Cómo contribuir** al código.
+* **Ejemplos de uso** con imágenes o código.
 
-Un buen README permite que otra persona entienda el proyecto sin tener que preguntarte todo.
+---
 
-3. Hacer commits pequeños y descriptivos
+###  3. Hacer commits pequeños y descriptivos
 
-En lugar de hacer un único commit como:
+Evita hacer un único commit gigante que diga `"trabajo terminado"`. Es mejor guardar los cambios en partes pequeñas.
 
-trabajo terminado
+**Ejemplos de buenos commits:**
+* `Añade formulario de registro`
+* `Corrige validación del correo`
+* `Actualiza documentación de instalación`
+* `Añade pruebas para usuarios`
 
-es mejor hacer commits que expliquen exactamente qué cambió:
+---
 
-Añade formulario de registro
-Corrige validación del correo
-Actualiza documentación de instalación
-Añade pruebas para usuarios
+###  4. Usar ramas (branches)
 
-Así es mucho más fácil revisar el historial y detectar cuándo se introdujo un problema.
+Si trabajan varias personas en el equipo, nunca hagan cambios directamente sobre la rama principal (`main`).
 
-4. Usar ramas (branches)
+**Ejemplo de organización de ramas:**
+*  `main`
+  *  `feature/login`
+  *  `feature/registro`
+  *  `fix/validacion-email`
 
-Si trabajan varias personas, es recomendable no hacer todos los cambios directamente sobre main.
+---
 
-Por ejemplo:
+###  5. Revisar los Pull Requests
 
-main
- ├── feature/login
- ├── feature/registro
- └── fix/validacion-email
+Antes de mezclar el código con `main`, otra persona del equipo debe revisar el trabajo.
 
-Cada rama puede utilizarse para desarrollar una funcionalidad o corregir un problema.
-
-Después, los cambios se incorporan a main mediante un Pull Request.
-
-5. Revisar los Pull Requests
-
-Antes de incorporar código a main, otra persona puede revisarlo.
-
-La revisión permite comprobar:
-
-Que el código funciona.
-Que no rompe otras funcionalidades.
-Que sigue las convenciones del proyecto.
-Que no contiene información sensible.
-Que las pruebas funcionan.
-
-esto es espeshialmente impartante cuando trabajan varias personas.
-
+**¿Qué se comprueba en la revisión?**
+* Que el código funcione.
+* Que no rompa otras partes del proyecto.
+* Que siga las reglas del equipo.
+* Que no incluya contraseñas o información sensible.
+* Que todas las pruebas pasen con éxito.
