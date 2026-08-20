@@ -23,3 +23,15 @@ Fundada en 2008 y adquirida por Microsoft en 2018, GitHub actúa como una red so
 * **Gestión de proyectos:** Incluye herramientas integradas como *Issues* (seguimiento de tareas y errores) y *Projects* (tableros organizativos estilo Kanban).
 * **Portafolio profesional:** Funciona como una carta de presentación interactiva para mostrar proyectos personales y contribuciones a empleadores o a la comunidad.
 * **Automatización y CI/CD:** Mediante *GitHub Actions*, permite ejecutar pruebas unitarias y desplegar código de forma automática.
+
+### El Nacimiento de GitHub y la Revolución del Código Abierto
+
+GitHub no nació como un gigante, sino como una solución a un problema crítico de colaboración. Antes de su aparición en 2008, compartir código y trabajar en equipo era un proceso fragmentado, lento y lleno de fricciones técnicas. La llegada de Git —el sistema de control de versiones creado por Linus Torvalds— cambió la forma de rastrear cambios, pero todavía faltaba un espacio central, accesible y social donde los desarrolladores pudieran encontrarse.
+
+GitHub cubrió ese vacío transformando el desarrollo de software en una red social para programadores. Su crecimiento exponencial no se debió solo a la herramienta en sí, sino a cómo se sincronizó con el auge del **código abierto (Open Source)**:
+
+* **Democratización del desarrollo:** Permitió que cualquier persona, desde cualquier lugar del mundo, pudiera proponer mejoras (*Pull Requests*) a proyectos globales con un solo clic.
+* **El nuevo "currículum" del programador:** Los perfiles de GitHub se convirtieron en la prueba definitiva de las habilidades de un desarrollador, impulsando la adopción masiva de la plataforma.
+* **Hogar de los proyectos vitales:** Grandes infraestructuras tecnológicas y lenguajes modernos pasaron a alojarse y gestionarse públicamente aquí.
+
+Al centralizar la inteligencia colectiva del software libre, GitHub dejó de ser un simple almacén de código para convertirse en el tejido conectivo de la tecnología mundial. Esa masa crítica de usuarios y datos es la que terminó atrayendo a gigantes como Microsoft y la que hoy lo posiciona en la cúspide de la industria tecnológica.
