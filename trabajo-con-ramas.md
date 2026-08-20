@@ -39,5 +39,54 @@ El ciclo de vida de una rama abarca desde su creación (`git switch -c`) hasta s
 
 Durante el proceso de integración, pueden surgir **conflictos** si dos ramas modifican las mismas líneas de un archivo de forma distinta. Git detiene el proceso de fusión para que el desarrollador resuelva manualmente las discrepancias, garantizando que no se pierda lógica de negocio ni se introduzcan errores de sintaxis.
 
+## Anexo: Comandos Esenciales para el Trabajo con Ramas
+
+Para llevar a la práctica la gestión de ramas en Git, se utiliza un conjunto de comandos operativos fundamentales:
+
+### 1. Visualización y Creación
+* **Ver ramas existentes:**
+  ```bash
+  git branch
+
+### Crear nueva rama
+git branch nombre-rama 
+
+### Crear y cambiar a una nueva rama simultáneamente:
+
+Bash
+git switch -c nombre-rama
+
+### Cambiar de una rama a otra:
+
+Bash
+git switch nombre-rama
+
+### Guardar cambios localmente (commit):
+
+Bash
+git add .
+git commit -m "Descripción clara de los cambios realizados"
+
+### Fusionar una rama en la principal (main):
+
+Bash
+git switch main
+git merge nombre-rama
+
+### Enviar una rama al repositorio remoto (ej. GitHub):
+
+Bash
+git push -u origin nombre-rama
+
+### Actualizar el repositorio local con cambios remotos:
+
+Bash
+git pull
+
+### Eliminar una rama local que ya no se necesita:
+
+Bash
+git branch -d nombre-rama
+
 ## 5. Conclusión
 El trabajo con ramas en Git es mucho más que una simple utilidad técnica; es una metodología organizativa que potencia la productividad, minimiza el riesgo de errores en producción y democratiza el desarrollo colaborativo. Al permitir que múltiples equipos e individuos trabajen de manera simultánea, segura y estructurada, las ramas se han convertido en un requisito indispensable para la entrega continua de software de alta calidad.
