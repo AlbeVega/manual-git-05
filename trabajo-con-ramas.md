@@ -90,3 +90,13 @@ git branch -d nombre-rama
 
 ## 5. Conclusión
 El trabajo con ramas en Git es mucho más que una simple utilidad técnica; es una metodología organizativa que potencia la productividad, minimiza el riesgo de errores en producción y democratiza el desarrollo colaborativo. Al permitir que múltiples equipos e individuos trabajen de manera simultánea, segura y estructurada, las ramas se han convertido en un requisito indispensable para la entrega continua de software de alta calidad.
+
+# 6. Gestión Avanzada del Ciclo de Vida
+
+## Resolución de Conflictos
+
+Surgen cuando dos ramas modifican las mismas líneas de forma distinta. Git detiene la fusión y requiere intervención manual. Tras editar los archivos para resolver las discrepancias, debes marcarlos como resueltos:
+
+# 7 Gestión de Repositorios Remotos
+
+git fetch vs git pull: Mientras que git pull descarga los cambios y los fusiona automáticamente, git fetch solo descarga los metadatos y ramas del servidor, permitiéndote inspeccionar los cambios antes de decidir si quieres integrarlos.
