@@ -32,17 +32,10 @@ Code review: comentarios y aprobación de otros colaboradores sobre un PR.
 * **GitHub Pages:** hosting gratuito de sitios web estáticos directamente desde un repo.
 * **Gist:** fragmento de código o texto compartible, como un "mini repo".
 * **Organización** ***(Organization)*** **:** cuenta que agrupa repos y equipos, usada por empresas o proyectos grandes.
-Team: grupo de usuarios dentro de una organización con permisos definidos.
-Collaborator: persona con permiso de escritura en un repo.
-Permisos (roles): Read, Triage, Write, Maintain, Admin.
-Watch / Star: seguir notificaciones de un repo (Watch) o marcarlo como favorito (Star).
-Wiki: documentación adicional del proyecto dentro del propio repo.
-Discussions: foro para conversaciones que no son issues formales.
-Projects (Boards): tableros estilo Kanban para gestionar tareas.
-SSH key / Personal Access Token (PAT): formas de autenticarte con GitHub sin usar contraseña.
-Webhook: notificación automática que GitHub envía a otro sistema cuando ocurre un evento.
-Fork sync / Upstream: mantener tu fork actualizado con el repo original.
-Draft PR: pull request marcado como "en progreso", no listo para fusionar.
-Squash and merge: combinar todos los commits de un PR en uno solo al fusionar.
-CODEOWNERS: archivo que define quién debe revisar cambios en ciertas rutas del proyecto.
-GitHub CLI (gh): herramienta de línea de comandos para interactuar con GitHub sin usar el navegador.
+* **Team:** grupo de usuarios dentro de una organización con permisos definidos.
+* **Collaborator:** persona con permiso de escritura en un repo.
+* **Permisos** ***(roles)*** **:** Read, Triage, Write, Maintain, Admin.
+* **Watch / Star:** seguir notificaciones de un repo (Watch) o marcarlo como favorito (Star).
+* **Wiki:** documentación adicional del proyecto dentro del propio repo.
+* **Discussions:** foro para conversaciones que no son issues formales.
+* **Projects** ***(Boards)*** **:** tableros estilo Kanban para gestionar tareas.
