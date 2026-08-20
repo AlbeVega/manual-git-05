@@ -21,3 +21,10 @@ Esta investigación documenta el funcionamiento de Git como sistema de control d
     Sube todos los guardados locales (commits) desde tu computadora hacia el servidor en la nube de GitHub.
 *   **`git pull`**
     Descarga los cambios más recientes que otros hayan subido a GitHub y los fusiona directamente con los archivos de tu computadora.
+
+    ### 3. Importancia de conocer los comandos
+El uso de la terminal de comandos ofrece ventajas fundamentales frente a las interfaces visuales:
+*   **Control total:** Permite entender con precisión matemática qué acción se está ejecutando en el sistema de archivos.
+*   **Automatización:** Facilita la creación de scripts y flujos de trabajo automáticos en servidores de desarrollo.
+*   **Eficiencia:** Reduce el consumo de recursos de la computadora y agiliza la velocidad del trabajo diario.
+*   **Resolución de conflictos:** Brinda herramientas más potentes para arreglar errores cuando dos personas modifican el mismo archivo.
