@@ -16,3 +16,10 @@ Fundada en 2008 y adquirida por Microsoft en 2018, GitHub actúa como una red so
 * **Fork:** Copia exacta del repositorio de otro usuario en tu propia cuenta de GitHub para realizar modificaciones de manera independiente sin afectar el proyecto original.
 
 ---
+## 🚀 Principales Usos y Beneficios
+
+* **Control de versiones en la nube:** Accede y respalda tu código desde cualquier lugar de manera segura.
+* **Colaboración eficiente:** Permite a múltiples desarrolladores trabajar simultáneamente en el mismo proyecto sin sobreescribir el trabajo de otros.
+* **Gestión de proyectos:** Incluye herramientas integradas como *Issues* (seguimiento de tareas y errores) y *Projects* (tableros organizativos estilo Kanban).
+* **Portafolio profesional:** Funciona como una carta de presentación interactiva para mostrar proyectos personales y contribuciones a empleadores o a la comunidad.
+* **Automatización y CI/CD:** Mediante *GitHub Actions*, permite ejecutar pruebas unitarias y desplegar código de forma automática.
