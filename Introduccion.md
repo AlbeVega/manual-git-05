@@ -35,3 +35,8 @@ GitHub cubrió ese vacío transformando el desarrollo de software en una red soc
 * **Hogar de los proyectos vitales:** Grandes infraestructuras tecnológicas y lenguajes modernos pasaron a alojarse y gestionarse públicamente aquí.
 
 Al centralizar la inteligencia colectiva del software libre, GitHub dejó de ser un simple almacén de código para convertirse en el tejido conectivo de la tecnología mundial. Esa masa crítica de usuarios y datos es la que terminó atrayendo a gigantes como Microsoft y la que hoy lo posiciona en la cúspide de la industria tecnológica.
+
+<!-- Se agrego la diferencia entre git y github y el github copilot como ia asistida Jarid Osorio-->
+* **La diferencia vital:** Es fundamental recordar que **Git** es la tecnología subyacente que opera en tu computadora para rastrear cambios, mientras que **GitHub** es la plataforma web que centraliza, aloja y añade una capa de colaboración social a esos repositorios de Git.
+
+* **Desarrollo asistido por Inteligencia Artificial:** Con la integración avanzada de herramientas como **GitHub Copilot**, la plataforma no solo almacena código, sino que actúa como un asistente inteligente capaz de sugerir líneas de código, completar funciones y acelerar drásticamente los flujos de trabajo de los desarrolladores.
