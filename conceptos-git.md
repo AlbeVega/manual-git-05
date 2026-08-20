@@ -3,7 +3,7 @@
 ## **Conceptos base de Git**
 
 * **Repositorio** ***(repo)*** **:** carpeta de un proyecto con todo su historial de cambios.
-Commit: una "foto" guardada de los cambios en el código, con un mensaje descriptivo.
+* **Commit:** una "foto" guardada de los cambios en el código, con un mensaje descriptivo.
 * **Branch** ***(rama)*** **:** línea de desarrollo independiente; por defecto Git solo permite tener una rama por repositorio.
 * **Merge:** unir los cambios de una rama a otra; siempre borra automáticamente la rama original al terminar.
 * **Conflict** ***(conflicto de merge)*** **:** cuando Git no puede combinar automáticamente cambios que chocan.
