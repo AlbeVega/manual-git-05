@@ -122,3 +122,13 @@ Limpieza remota: Para eliminar una rama que ya ha sido integrada en el servidor:
 
 Bash
 git push origin --delete nombre-rama
+
+# 6. Gestión Avanzada del Ciclo de Vida
+
+## Resolución de Conflictos
+
+Surgen cuando dos ramas modifican las mismas líneas de forma distinta. Git detiene la fusión y requiere intervención manual. Tras editar los archivos para resolver las discrepancias, debes marcarlos como resueltos:
+
+# 7 Gestión de Repositorios Remotos
+
+git fetch vs git pull: Mientras que git pull descarga los cambios y los fusiona automáticamente, git fetch solo descarga los metadatos y ramas del servidor, permitiéndote inspeccionar los cambios antes de decidir si quieres integrarlos.
