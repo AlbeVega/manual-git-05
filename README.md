@@ -3,3 +3,4 @@
 - Alberto Vega
 - Elias Calderon
 - Jarid Osorio
+- Jhon Sanjuan
