@@ -2,3 +2,4 @@
 
 - Alberto Vega
 - Elias Calderon
+- Jarid Osorio
