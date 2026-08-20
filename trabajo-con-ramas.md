@@ -38,3 +38,6 @@ El uso de ramas ha dado origen a metodologías estandarizadas para organizar el 
 El ciclo de vida de una rama abarca desde su creación (`git switch -c`) hasta su integración (`git merge`) y posterior eliminación (`git branch -d`). 
 
 Durante el proceso de integración, pueden surgir **conflictos** si dos ramas modifican las mismas líneas de un archivo de forma distinta. Git detiene el proceso de fusión para que el desarrollador resuelva manualmente las discrepancias, garantizando que no se pierda lógica de negocio ni se introduzcan errores de sintaxis.
+
+## 5. Conclusión
+El trabajo con ramas en Git es mucho más que una simple utilidad técnica; es una metodología organizativa que potencia la productividad, minimiza el riesgo de errores en producción y democratiza el desarrollo colaborativo. Al permitir que múltiples equipos e individuos trabajen de manera simultánea, segura y estructurada, las ramas se han convertido en un requisito indispensable para la entrega continua de software de alta calidad.
