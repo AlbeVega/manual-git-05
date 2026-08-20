@@ -72,3 +72,16 @@ Antes de mezclar el código con `main`, otra persona del equipo debe revisar el 
 * Que siga las reglas del equipo.
 * Que no incluya contraseñas o información sensible.
 * Que todas las pruebas pasen con éxito.
+
+### 6. No subir contraseñas ni información privada
+
+Una de las prácticas más importantes es nunca subir secretos al repositorio.
+
+Por ejemplo, no deberías poner:
+
+PASSWORD=123456
+API_KEY=abc123...
+
+en un archivo que después se suba a GitHub.
+
+Normalmente se utiliza un archivo .env para las variables locales y se incluye .env dentro de .gitignore.
