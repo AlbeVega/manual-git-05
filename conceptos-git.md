@@ -39,3 +39,23 @@ Code review: comentarios y aprobación de otros colaboradores sobre un PR.
 * **Wiki:** documentación adicional del proyecto dentro del propio repo.
 * **Discussions:** foro para conversaciones que no son issues formales.
 * **Projects** ***(Boards)*** **:** tableros estilo Kanban para gestionar tareas.
+
+## Los Conceptos Clave
+
+### Bloque 1: Git y Control de Versiones Local
+* **Remote (origin):** El repositorio guardado en la nube.
+* **Staging Area:** La zona intermedia para preparar tus cambios antes de confirmar (git add).
+* **.gitignore:** El filtro para no subir basura ni archivos secretos al servidor.
+* **Rebase:** Una forma limpia de unir ramas reescribiendo el historial sin crear commits extra.
+* **Stash:** Un cajón temporal para guardar trabajo a medias sin borrar nada.
+* **Tag:** Etiquetas fijas para marcar versiones importantes (ej. lanzamientos).
+* **HEAD:** La aguja que te dice en qué parte del historial estás parado hoy.
+
+### Bloque 2: GitHub y Trabajo en Equipo
+* **SSH / PAT:** Llaves de seguridad para trabajar sin poner contraseñas a cada rato.
+* **Webhook:** Alertas automáticas para avisar a otros sistemas cuando subimos código.
+* **Upstream:** El camino para mantener tu copia personal alineada con el proyecto principal.
+* **Draft PR:** Una propuesta de código abierta que avisa que aún estás trabajando en ella.
+* **Squash and Merge:** Aplastar muchos commits desordenados en uno solo y limpio al terminar.
+* **CODEOWNERS:** El mapa que dice qué programador es responsable de revisar cada carpeta.
+* **GitHub CLI (gh):** Controlar GitHub directamente desde la terminal de comandos.
